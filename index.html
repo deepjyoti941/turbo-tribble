@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Gifted strings Assignment Task</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/app.css">
+
+</head>
+<body class="container-fluid" ng-controller="appController">
+    <h2>Search Country</h2>
+    <search-form ng-model="input"></search-form>
+</body>
+
+<footer>
+    <!-- vendor components -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- scripts for various modules -->
+    <script src="modules/search/searchModule.js"></script>
+    <script src="modules/search/searchFormDirective.js"></script>
+
+    <script src="app/appModule.js"></script>
+    <script src="app/appConfig.js"></script>
+    <script src="app/appController.js"></script>
+    <script src="app/services/dataService.js"></script>
+
+</footer>
+</html>
